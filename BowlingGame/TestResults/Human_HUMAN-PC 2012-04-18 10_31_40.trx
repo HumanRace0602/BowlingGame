@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b208df2c-e98f-4d0f-b3cd-b12a1c3f79be" name="Human@HUMAN-PC 2012-04-18 10:31:40" runUser="Human-PC\Human" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="784ef2bf-576a-43ab-bf05-7a9c7898302e">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="Human_HUMAN-PC 2012-04-18 10_31_40">
+      <DeploymentItem filename="G:\Pro\C#\BlowlingGame\BlowlingGame\bin\Debug\BlowlingGame.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-18T10:31:40.9829287+08:00" queuing="2012-04-18T10:31:42.9460410+08:00" start="2012-04-18T10:31:43.1590532+08:00" finish="2012-04-18T10:31:44.8391493+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestOneStrike" storage="g:\pro\c#\blowlinggame\blowlinggametest\bin\debug\blowlinggametest.dll" id="fe4a4d48-d931-73f5-7275-cc6ba94c7930">
+      <Execution id="e37989c4-945c-4753-86cb-7c7886d496f4" />
+      <TestMethod codeBase="G:/Pro/C#/BlowlingGame/BlowlingGameTest/bin/Debug/BlowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BlowlingGameTest.UnitTest1, BlowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestOneStrike" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="fe4a4d48-d931-73f5-7275-cc6ba94c7930" executionId="e37989c4-945c-4753-86cb-7c7886d496f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e37989c4-945c-4753-86cb-7c7886d496f4" testId="fe4a4d48-d931-73f5-7275-cc6ba94c7930" testName="TestOneStrike" computerName="HUMAN-PC" duration="00:00:00.1949822" startTime="2012-04-18T10:31:43.2770599+08:00" endTime="2012-04-18T10:31:44.7431438+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e37989c4-945c-4753-86cb-7c7886d496f4">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual 失败。应为: &lt;24&gt;，实际为: &lt;17&gt;。</Message>
+          <StackTrace>   在 BlowlingGameTest.UnitTest1.TestOneStrike() 位置 G:\Pro\C#\BlowlingGame\BlowlingGameTest\UnitTest1.cs:行号 115
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

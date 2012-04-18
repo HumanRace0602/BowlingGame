@@ -1,0 +1,7 @@
+G:\Pro\C#\BowlingGame\BowlingGameTestProject\obj\Debug\ResolveAssemblyReference.cache
+G:\Pro\C#\BowlingGame\BowlingGameTestProject\bin\Debug\BowlingGameTestProject.dll
+G:\Pro\C#\BowlingGame\BowlingGameTestProject\bin\Debug\BowlingGameTestProject.pdb
+G:\Pro\C#\BowlingGame\BowlingGameTestProject\bin\Debug\BowlingGame.exe
+G:\Pro\C#\BowlingGame\BowlingGameTestProject\bin\Debug\BowlingGame.pdb
+G:\Pro\C#\BowlingGame\BowlingGameTestProject\obj\Debug\BowlingGameTestProject.dll
+G:\Pro\C#\BowlingGame\BowlingGameTestProject\obj\Debug\BowlingGameTestProject.pdb

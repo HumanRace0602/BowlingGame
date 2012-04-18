@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3a5028b8-2358-4196-85e7-79f173a3975c" name="Human@HUMAN-PC 2012-04-18 10:36:19" runUser="Human-PC\Human" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="784ef2bf-576a-43ab-bf05-7a9c7898302e">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="Human_HUMAN-PC 2012-04-18 10_36_19">
+      <DeploymentItem filename="G:\Pro\C#\BlowlingGame\BlowlingGame\bin\Debug\BlowlingGame.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-18T10:36:19.5058593+08:00" queuing="2012-04-18T10:36:19.8468788+08:00" start="2012-04-18T10:36:19.9108825+08:00" finish="2012-04-18T10:36:20.5449187+08:00" />
+  <ResultSummary outcome="NotRunnable">
+    <Counters total="4" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="1" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestAllOne" storage="g:\pro\c#\blowlinggame\blowlinggametest\bin\debug\blowlinggametest.dll" id="94c5e80f-a579-d90d-a71f-5045933ffea2">
+      <Execution id="2b077869-8417-4388-8021-df4658f76f93" />
+      <TestMethod codeBase="G:/Pro/C#/BlowlingGame/BlowlingGameTest/bin/Debug/BlowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BlowlingGameTest.UnitTest1, BlowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAllOne" />
+    </UnitTest>
+    <UnitTest name="RollSpare" storage="g:\pro\c#\blowlinggame\blowlinggametest\bin\debug\blowlinggametest.dll" id="b5e493ea-21b5-887a-d317-c2faaecc3402">
+      <Execution id="63a67dd3-0c66-48a8-91af-9a38d4e29efd" />
+      <TestMethod codeBase="G:/Pro/C#/BlowlingGame/BlowlingGameTest/bin/Debug/BlowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BlowlingGameTest.UnitTest1, BlowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RollSpare" />
+    </UnitTest>
+    <UnitTest name="TestAllZero" storage="g:\pro\c#\blowlinggame\blowlinggametest\bin\debug\blowlinggametest.dll" id="7b79a6ba-6a0d-d8ca-3be5-a608a9d27939">
+      <Execution id="1c28e3d2-3f76-4707-ad69-476e044eb62d" />
+      <TestMethod codeBase="G:/Pro/C#/BlowlingGame/BlowlingGameTest/bin/Debug/BlowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BlowlingGameTest.UnitTest1, BlowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAllZero" />
+    </UnitTest>
+    <UnitTest name="TestOneStrike" storage="g:\pro\c#\blowlinggame\blowlinggametest\bin\debug\blowlinggametest.dll" id="fe4a4d48-d931-73f5-7275-cc6ba94c7930">
+      <Execution id="f5907aff-1f0a-480d-9508-0f99c3bbb197" />
+      <TestMethod codeBase="G:/Pro/C#/BlowlingGame/BlowlingGameTest/bin/Debug/BlowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BlowlingGameTest.UnitTest1, BlowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestOneStrike" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="7b79a6ba-6a0d-d8ca-3be5-a608a9d27939" executionId="1c28e3d2-3f76-4707-ad69-476e044eb62d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="94c5e80f-a579-d90d-a71f-5045933ffea2" executionId="2b077869-8417-4388-8021-df4658f76f93" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5e493ea-21b5-887a-d317-c2faaecc3402" executionId="63a67dd3-0c66-48a8-91af-9a38d4e29efd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fe4a4d48-d931-73f5-7275-cc6ba94c7930" executionId="f5907aff-1f0a-480d-9508-0f99c3bbb197" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1c28e3d2-3f76-4707-ad69-476e044eb62d" testId="7b79a6ba-6a0d-d8ca-3be5-a608a9d27939" testName="TestAllZero" computerName="HUMAN-PC" duration="00:00:00.0241801" startTime="2012-04-18T10:36:19.9468845+08:00" endTime="2012-04-18T10:36:20.4879155+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c28e3d2-3f76-4707-ad69-476e044eb62d">
+    </UnitTestResult>
+    <UnitTestResult executionId="2b077869-8417-4388-8021-df4658f76f93" testId="94c5e80f-a579-d90d-a71f-5045933ffea2" testName="TestAllOne" computerName="HUMAN-PC" duration="00:00:00.0003391" startTime="2012-04-18T10:36:20.4909156+08:00" endTime="2012-04-18T10:36:20.5009162+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b077869-8417-4388-8021-df4658f76f93">
+    </UnitTestResult>
+    <UnitTestResult executionId="63a67dd3-0c66-48a8-91af-9a38d4e29efd" testId="b5e493ea-21b5-887a-d317-c2faaecc3402" testName="RollSpare" computerName="HUMAN-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="63a67dd3-0c66-48a8-91af-9a38d4e29efd">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA007: 在类 BlowlingGameTest.UnitTest1 中定义的方法 RollSpare 没有正确的签名。用 [TestMethod] 特性标记的测试方法必须是非静态的公共方法，不返回值并且不应带有任何参数。例如: public void Test.Class1.Test()。</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f5907aff-1f0a-480d-9508-0f99c3bbb197" testId="fe4a4d48-d931-73f5-7275-cc6ba94c7930" testName="TestOneStrike" computerName="HUMAN-PC" duration="00:00:00.0002752" startTime="2012-04-18T10:36:20.5049164+08:00" endTime="2012-04-18T10:36:20.5129169+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f5907aff-1f0a-480d-9508-0f99c3bbb197">
+    </UnitTestResult>
+  </Results>
+</TestRun>

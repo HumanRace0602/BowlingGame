@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="51544e33-9694-4592-9e63-667c1fd1af70" name="Human@HUMAN-PC 2012-04-18 12:22:57" runUser="Human-PC\Human" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="784ef2bf-576a-43ab-bf05-7a9c7898302e">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="Human_HUMAN-PC 2012-04-18 12_22_57">
+      <DeploymentItem filename="G:\Pro\C#\BlowlingGame\BlowlingGame\bin\Debug\BlowlingGame.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-18T12:22:57.4508008+08:00" queuing="2012-04-18T12:23:08.9144565+08:00" start="2012-04-18T12:23:09.6584990+08:00" finish="2012-04-18T12:23:13.9517446+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestAllOne" storage="g:\pro\c#\blowlinggame\blowlinggametest\bin\debug\blowlinggametest.dll" id="94c5e80f-a579-d90d-a71f-5045933ffea2">
+      <Execution id="0283d5e1-9554-4012-a376-618eddf4f037" />
+      <TestMethod codeBase="G:/Pro/C#/BlowlingGame/BlowlingGameTest/bin/Debug/BlowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BlowlingGameTest.UnitTest1, BlowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAllOne" />
+    </UnitTest>
+    <UnitTest name="TestOneSpare" storage="g:\pro\c#\blowlinggame\blowlinggametest\bin\debug\blowlinggametest.dll" id="a86dde82-7aae-ceea-8968-b147737603e6">
+      <Execution id="46ab2876-fecb-4a09-9dac-ab6d019f27a6" />
+      <TestMethod codeBase="G:/Pro/C#/BlowlingGame/BlowlingGameTest/bin/Debug/BlowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BlowlingGameTest.UnitTest1, BlowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestOneSpare" />
+    </UnitTest>
+    <UnitTest name="TestAllZero" storage="g:\pro\c#\blowlinggame\blowlinggametest\bin\debug\blowlinggametest.dll" id="7b79a6ba-6a0d-d8ca-3be5-a608a9d27939">
+      <Execution id="a33be2aa-047d-401f-b842-3f6ba0d2dcfc" />
+      <TestMethod codeBase="G:/Pro/C#/BlowlingGame/BlowlingGameTest/bin/Debug/BlowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BlowlingGameTest.UnitTest1, BlowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAllZero" />
+    </UnitTest>
+    <UnitTest name="TestPerfectGame" storage="g:\pro\c#\blowlinggame\blowlinggametest\bin\debug\blowlinggametest.dll" id="531607ff-9278-a41e-2348-fbffd259a26e">
+      <Execution id="8f50edd1-4757-4be6-b936-ae49de66a4f4" />
+      <TestMethod codeBase="G:/Pro/C#/BlowlingGame/BlowlingGameTest/bin/Debug/BlowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BlowlingGameTest.UnitTest1, BlowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPerfectGame" />
+    </UnitTest>
+    <UnitTest name="TestOneStrike" storage="g:\pro\c#\blowlinggame\blowlinggametest\bin\debug\blowlinggametest.dll" id="fe4a4d48-d931-73f5-7275-cc6ba94c7930">
+      <Execution id="5c138a5c-6f99-4b9e-b3c3-07112743b5ec" />
+      <TestMethod codeBase="G:/Pro/C#/BlowlingGame/BlowlingGameTest/bin/Debug/BlowlingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BlowlingGameTest.UnitTest1, BlowlingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestOneStrike" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="531607ff-9278-a41e-2348-fbffd259a26e" executionId="8f50edd1-4757-4be6-b936-ae49de66a4f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b79a6ba-6a0d-d8ca-3be5-a608a9d27939" executionId="a33be2aa-047d-401f-b842-3f6ba0d2dcfc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="94c5e80f-a579-d90d-a71f-5045933ffea2" executionId="0283d5e1-9554-4012-a376-618eddf4f037" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a86dde82-7aae-ceea-8968-b147737603e6" executionId="46ab2876-fecb-4a09-9dac-ab6d019f27a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fe4a4d48-d931-73f5-7275-cc6ba94c7930" executionId="5c138a5c-6f99-4b9e-b3c3-07112743b5ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8f50edd1-4757-4be6-b936-ae49de66a4f4" testId="531607ff-9278-a41e-2348-fbffd259a26e" testName="TestPerfectGame" computerName="HUMAN-PC" duration="00:00:00.0709924" startTime="2012-04-18T12:23:10.4035417+08:00" endTime="2012-04-18T12:23:13.1847007+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f50edd1-4757-4be6-b936-ae49de66a4f4">
+    </UnitTestResult>
+    <UnitTestResult executionId="a33be2aa-047d-401f-b842-3f6ba0d2dcfc" testId="7b79a6ba-6a0d-d8ca-3be5-a608a9d27939" testName="TestAllZero" computerName="HUMAN-PC" duration="00:00:00.0005234" startTime="2012-04-18T12:23:13.2137024+08:00" endTime="2012-04-18T12:23:13.2287033+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a33be2aa-047d-401f-b842-3f6ba0d2dcfc">
+    </UnitTestResult>
+    <UnitTestResult executionId="0283d5e1-9554-4012-a376-618eddf4f037" testId="94c5e80f-a579-d90d-a71f-5045933ffea2" testName="TestAllOne" computerName="HUMAN-PC" duration="00:00:00.0003401" startTime="2012-04-18T12:23:13.2807062+08:00" endTime="2012-04-18T12:23:13.3857122+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0283d5e1-9554-4012-a376-618eddf4f037">
+    </UnitTestResult>
+    <UnitTestResult executionId="46ab2876-fecb-4a09-9dac-ab6d019f27a6" testId="a86dde82-7aae-ceea-8968-b147737603e6" testName="TestOneSpare" computerName="HUMAN-PC" duration="00:00:00.0005514" startTime="2012-04-18T12:23:13.4037133+08:00" endTime="2012-04-18T12:23:13.4247145+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="46ab2876-fecb-4a09-9dac-ab6d019f27a6">
+    </UnitTestResult>
+    <UnitTestResult executionId="5c138a5c-6f99-4b9e-b3c3-07112743b5ec" testId="fe4a4d48-d931-73f5-7275-cc6ba94c7930" testName="TestOneStrike" computerName="HUMAN-PC" duration="00:00:00.0003979" startTime="2012-04-18T12:23:13.4407154+08:00" endTime="2012-04-18T12:23:13.4547162+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c138a5c-6f99-4b9e-b3c3-07112743b5ec">
+    </UnitTestResult>
+  </Results>
+</TestRun>
